@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Tugas Akhir Semester 3 </title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="file1.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!--Kodingan ganti-ganti gambar-->
+            <script>
+                var i = 0;
+                $(document).ready(function(){
+                    $('.slidertitle, #konten2 img').hide();
+                    showNextImage();
+                    setInterval('showNextImage()', 3000);
+                });
+
+                function showNextImage(){
+                    i++;
+                    $('#sliderImage' +i).appendTo('#konten2').fadeIn(1100).delay().fadeOut(1100);
+                    $('#konten2' +i).appendTo('#konten2').fadeIn(1100).delay(1100).fadeOut(1100);
+                    if(i==3){
+                        i=0;
+                    }
+                };
+            </script>
+	</head>
+	<body>
+
+		<!--Navigasi di paling atas-->
+        <nav class="navbar bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">Kelompok Daffa dan Nazario</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://na.finalfantasy.com/">Final Fantasy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.kingdomhearts.com/home/us/">Kingdom Hearts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://nier.square-enix-games.com/en-us/">Nier Replicants</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+
+        <!--Kalimat NieR: Automata-->
+        <div class="news">NieR: Automata</div>
+
+		<!--Ini kodingan slider-nya-->
+		<div class="container-image">
+            <i class="fas fa-arrow-alt-circle-right" id="nextBtn"></i>
+            <i class="fas fa-arrow-circle-left" id="prevBtn"></i>
+			<div class="container-slide">
+				<img src="img/gambar6.jpg" id="klonPertama" alt="" width="100%">
+				<img src="img/gambar7.jpg" alt="" width="100%">
+				<img src="img/gambar8.png" alt="" width="100%">
+				<img src="img/gambar9.jpg" alt="" width="100%">
+				<img src="img/gambar10.jpg" id="klonTerakhir" alt="" width="100%">
+			</div>
+		</div>
+        <script src="slider.js"></script>
+
+        <!--Titik tiga ekor-->
+        <br><br>
+        <div class="horizontal"></div>
+
+        <!--Konten utama-->
+        <br><br>
+
+        <!--Konten nol-->
+        <h1 class = judulKonten0>Apa itu Nier Automata?</h1>
+        <br>
+        <div class="konten0" align="center">
+            <img src="img/konten0.jpg" align="center" width="100%" height="100%">
+        </div>
+        <br>
+        <div class = kataKonten0><p align="center">
+
+        "NieR: Automata adalah RPG indah nan memukau yang tiada habis kecantikannya"</p>
+            
+            <p style="text-indent: 40px;"><i>Game</i> mahakarya spektakuler yang menyajikan aksi serta elemen cerita yang jarang-jarang, atau bahkan mungkin pertama kalinya eksis di sepanjang sejarah <i>video game</i>, dengan pertarungan skala cepat dan rusuh tanpa pandang bulu, para pemain serasa terhanyut ke pusaran peperangan dan benar-benar merasakan gerakan fantastis nan cepat para Android yang didesain untuk membasmih mesin-mesin titisan Alien yang menguasai bumi.
+
+        </div>
+        <br><br>
+
+        <!--Konten pertama-->
+        <h1 class = judulKonten1>Jalan Cerita</h1>
+        <br>
+        <div class="konten1" align="center">
+            <img src="img/konten15.jpg" align="center" width="100%" height="100%">
+        </div>
+        <br>
+        <div class = kataKonten1><p align="center">
+
+            <p style="text-indent: 40px;">Plotnya mengikuti perjuangan 3 tiga Android dalam perang Android vs Mesin, yakni model 2B dan 9s yang merupakan anggota YoRHa, pasukan militer elit yang dipimpin Dewan Manusia untuk melawan para alien yang menginvasi serta mesin-mesin buatannya. Tentunya YoRHa tidak sendirian, masih ada pasukan lain di bumi yang bernama Resistance. Mereka pun sama-sama Android, namun modelnya lebih tua dan kurang cakap dibanding Android-Android buatan YoRHa.</p>
+
+            <p style="text-indent: 40px;">Umat manusia telah pergi dari bumi ke bulan dikarenakan invasi mesin pembunuh yang maha banyak, dan YoRHa didirikan agar menjadikan bumi sekali lagi menjadi suaka para manusia. Di permukaan ceritanya sangatlah sederhana namun di baliknya teramat kompleks dan psikologis, begitu Anda menyelam ke NieR: Automata maka Anda akan kerap mempertanyakan apakah eksistensi 2B dan 9S  semata-mata diciptakan untuk perang belaka serta misteri dan tujuan hidup sesungguhnya para Android di dunia kelam yang hanya ada musuh di dalamnya.</p>
+
+            <div class="konten1" align="center">
+                <img src="img/konten98.gif" >
+                <br><br>
+                <p>"2B bergaya"</p>
+            </div>
+
+            <p style="text-indent: 40px;">Eksistensi Tuhan, kehidupan, kematian, cinta, keindahan, ketakutan, keputusasaan, konflik, kesemuanya adalah subjek-subjek yang <i>Game</i>-nya bahas secara eksplisit maupun implisit dengan cara jauh melampaui kata <i>mainstream</i> dalam penanganan sejumlah topik sensitif ini.</p>
+
+            <div class="konten1" align="center">
+                <img src="img/konten99.gif" >
+                <br><br>
+                <p>"9S tos dengan robot bantu bernama POD"</p>
+            </div>
+
+            <p style="text-indent: 40px;">NieR: Automata pun terbagi menjadi 26 akhir, <i>yap</i> ... Anda tidak salah baca, dua puluh enam (26), namun hanya hanya 5 akhir yang terhitung berpengaruh ke cerita, ke-21 lainnya hanyalah akhir konyol nan jenaka yang membuat para pemainnya cekikikan dan sejenak terlepas dari <i>game</i>-nya yang sejatinya mencekam dan terasa tanpa pengampunan. Pastikan bermain hingga mencapai akhir A-E, kebanyakan orang merasa ceritanya biasa saja karena mereka baru sampai akhir A, belum sampai E, itu hukumnya WAJIB jika ingin benar-benar merasakan jalan cerita sesungguhnya sebab paruh akhir cerita, Platinum Games akan punya kejutan besar 180 derajat yang membuat NieR: Automata langsung menjabat bintang 10/10.</p>
+
+        </div>
+        <br><br>
+
+        <!--Konten kedua -->
+        <h1 class = judulKonten2><i>Gameplay</i></h1>
+        <br>
+        <div id="konten2" align="center"> 
+            <img id="sliderImage1" src="img/konten21.jpg" height="70%" width="70%" class="imgKonten1">
+            <img id="sliderImage2" src="img/konten22.png" height="70%" width="70%" class="imgKonten1">
+            <img id="sliderImage3" src="img/konten23.png" height="70%" width="70%" class="imgKonten1">
+        </div>
+        <br>
+        <div class = kataKonten2><p align="center">
+            <p style="text-indent: 40px;">Di sini bagian kerennya, <i>Gameplay</i> NieR: Automata menyuguhkan banyak perspektif dan elemen-elemen yang mulus dikorelasikan, sesekali <i>game</i>-nya adalah RPG <i>Hack and Slash</i> seperti gambar gif berikut ini:
+
+            <br>
+            <div class="konten2" align="center">
+                <img src="img/konten100.gif" >
+                <br><br>
+            </div>
+
+            <p style="text-indent: 40px;">Kadang kala bisa juga berubah menjadi <i>game</i> 2D ala HP nokia lawas.</p>
+
+            <div class="konten2">
+                <img src="img/konten24.jpg" width="100%" align="center">
+                <br><br>
+            </div>
+
+            <p style="text-indent: 40px;">Atau malah berlarian menghindari serangan musuh selayaknya <i>Game Call of Duty</i> sambil menembak menggunakan POD pendukung</p>
+
+            <div class="konten2">
+                <img src="img/konten101.gif" width="100%" align="center">
+                <br><br>
+            </div>
+
+            <p style="text-indent: 40px;">Lihat? Banyak sekali fitur yang disediakan Platinum Games sang pengembang NieR: Automata untuk menghilangkan kebosanan dan perasaan repetitif ketika bermain permainan bertipe <i>Open World</i> yang seiring dimainkan dan dieksplor dunianya akan terasa bosan, tetapi bila dibungkus <i>gameplay</i> unik dan bermacam-macam akan lebih mengesankan dan menarik berapa kali pun Anda memainkannya.</p>
+
+            <p style="text-indent: 40px;">Coba tinggalkan satu minggu saja, maka begitu Anda memilih pilihan <i>Continue</i> di <i>Lobby</i> awal <i>game</i> dunianya seolah akan membuka tangan kemudian berkata, <i>'Selamat datang kembali di permainan baru yang padahal tidak baru dan baru Anda tinggalkan satu minggu baru-baru ini'.</i></p>
+
+            <p style="text-indent: 40px;">Hal unik dan estetiknya adalah, ada mode yang betul-betul membuat kita menjadi sebagaimana karakter-karakter NieR: Automata, yaitu <i>Arcade Hacking</i>, di saat karakter kita diretas atau karakter kita meretas, akan ada proses mengalahkan virus yang meretas atau kita yang membantai sistem pertahanan musuh, laksana membuat kita 100 persen menjadi Android seutuhnya, namun sayang karakter yang bisa meretas hanyalah 9S, sebab <i>-S</i> di namanya adalah <i>Scanner</i> yang berarti Pemindai, sementara <i>-B</i> di 2B adalah <i>Battler</i> yang artinya Petarung. Berikut contohnya:
+
+            <div class="konten2">
+                <img src="img/konten25.jpg" width="100%" align="center">
+                <br><br>
+            </div>
+
+            <p style="text-indent: 40px;">Belum lagi fitur POD pendukung yang punya banyak kemampuan, selain menembak salah satunya adalah menjatuhkan palu penghakiman kepada mesin-mesin yang mencemari bumi</p>
+
+            <div class="konten2">
+                <img src="img/konten102.gif" width="100%" align="center">
+                <br><br>
+            </div>
+
+            <p style="text-indent: 40px;">Fantastis bukan? Anda barangkali kebingungan dengan seluruh fitur ini yang terlihat berganti-ganti mendadak atau kesulitan beradaptasi, namun justru itu yang membuat <i>game</i>-nya berbeda dari yang lain belakangan ini, percayalah yang saya tampilkan di atas belum seberapa, masih banyak fitur lainnya yang tidak ingin saya <i>spoiler</i> dan merasa lebih baik Anda cicipi sendiri. Seluruh fiturnya bekerja menakjubkan dengan sedikit atau bahkan tidak ada kekurangan dan sepenuhnya tidak menyela perasaan imersif Anda.</p>
+
+        </div>
+        <br><br>
+
+        <!--Konten ketiga-->
+        <h1 class = judulKonten3>Dunianya</h1>
+        <br>
+        <div class="konten3" align="center">
+            <img src="img/konten31.png" align="center" width="100%" height="100%">
+        </div>
+        <br>
+        <div class = kataKonten3><p align="center">
+            
+            <p style="text-indent: 40px;">Hal epik lain yang membedakan NieR: Automata dari sesama <i>game</i> kelas AAA lainnya adalah <i>soundtrack-soundtrack</i> yang mengiringi sepanjang <i>game</i> dan dunianya yang imajinatif tidak sesuai keadaan bumi yang tengah dijajah dan sedang dalam perang. Ini salah satu testimoninya: </p>
+
+            <div class="konten3">
+                <img src="img/konten33.gif" width="100%" align="center">
+                <br><br>
+            </div>
+            <p align="center">"Kita punya Disney Land!"</p>
+            <br>
+
+            <p style="text-indent: 40px;">Walaupun grafiknya terkenal kurang mencolok dan kalah dari <i>game-game</i> sezamannya, tempat-tempat di dalam dunianya sudah cukup menggantikannya, Anda tidak dibuat tertarik dengan grafik bak keindahan rupa yang hanya memuaskan sesaat tetapi tak selamanya, tempat-tempat dan karakteristik NPC di setiap tempatlah yang bertahan selamanya, sebagai contoh. Di Disney Land, <i>'Sebut saja Disney Land'</i>, kita tak hanya mendapati kastil megah dengan kembang api pemeriah suasana, namun juga NPC-NPC para mesin yang semestinya ganas dan nafsu membunuh, menjadi bersahabat dan hanya mengajak kita bermain juga bersuka ria. Mereka tidak lagi peduli akan peperangan dan menantang bertarung kita, melainkan cuma berpindah ke kanan-kiri sambil mengulang-ngulang kalimat seperti halnya kaset rusak.</p>
+
+            <div class="konten3">
+                <img src="img/amusementPark1.png" width="100%" align="center">
+                <img src="img/amusementPark2.jpg" width="100%" align="center">
+                <br><br>
+            </div>
+
+            <p style="text-indent: 40px;">Selain Disney Land, ada juga gurun ... benar-benar gurun berudara pasir yang di lika-likunya terdapat para mesin pemburu kejam yang siap membunuh Anda.
+
+            <div class="konten3">
+                <img src="img/konten34.jpg" width="100%" align="center">
+                <br>
+                <img src="img/gurun2.jpg" width="100%" align="center">
+                <br><br>
+            </div>
+
+            <p style="text-indent: 40px;">Tempat-tempatnya tidak selalu biasa, tak sekadar hutan kosong, rawa utuh, jajaran pegunungan, padang rumput luas, tempat-tempat biasa nan normal itu tidak ada di Nier: Automata, hanya ada kota mati persis sebagaimana tema cerita, tempat-tempat unik nan aneh yang tak wajar ada, dan masih banyak lagi. Dan ini bonus:
+
+            <div class="konten3">
+                <img src="img/konten32.jpg" width="100%" align="center">
+                <br>
+                <img src="img/konten35.png" width="100%" align="center">
+                <br><br>
+            </div>
+
+            <p style="text-indent: 40px;">Kesimpulannya adalah, dengan semua hal yang saya katakan, sebagus apapun ulasan ini, namun jika Anda tetap tak berminat memainkannya maka tidak apa-apa, Yoko Taro sang Direktor sekaligus penulis ceritanya sendiri berkata, '<i>Game ini sudah 3 tahun rilis, jika Anda masih tidak memainkannya, maka tidak harus memainkannya'</i>. Namun demikian, NieR: Automata sukses menembus dinding fantasi dan benar-benar sukses menyampaikan isi cerita serta dunia yang dibangunnya, serius, dari ceritanya saja <i>game</i> ini terhitung <i>game</i> terbaik sedekade.</p>
+
+            <br>
+            <p align="center">"Jika sejarah melupakan NieR: Automata maka lupakanlah sejarah!"</p>
+        <br><br>        
+	</body>
+</html>

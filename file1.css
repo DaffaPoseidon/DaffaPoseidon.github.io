@@ -1,0 +1,184 @@
+@font-face{
+    src: url(Font/Cardo-Regular.ttf);
+	font-family: cardo;
+}
+
+@font-face{
+	src: url(Font/Philosopher-Bold.ttf);
+	font-family: philo;
+}
+
+@font-face{
+	src: url(Font/ITC-Benguiat-Book.ttf);
+	font-family: nier;
+}
+
+.container{
+	font-family: cardo;
+}
+
+.navbar-brand{
+	font-family: cardo;
+}
+
+.container-image{
+	width: 90%;
+	margin: auto;
+	border: 5px black;
+	overflow: hidden;
+	position: relative;
+}
+
+.container-slide{
+	display: flex;
+	height: 620px;
+}
+
+#prevBtn{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	left: 5%;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+}
+
+#nextBtn{
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	right: 5%;
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+}
+
+.news{
+	font-size: 55px;
+	text-align: center;
+	font-family: nier;
+}
+
+.news{
+	overflow: hidden;
+    text-align: center;
+}
+
+.news:before, .news:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.news:before {
+    right: 1em;
+    margin-left: -50%;
+}
+
+.news:after {
+    left: 1em;
+    margin-right: -50%;
+}
+
+.horizontal:before{
+	position: relative;
+    vertical-align: middle;
+	size: 100px;
+	content: "•••"
+}
+
+.horizontal:after{
+	position: relative;
+    vertical-align: middle;
+	size: 100px;
+	content: "•••"
+}
+
+.judulKonten0{
+	font-family: philo;
+	text-align: center;
+}
+
+.konten0{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.kataKonten0{
+    text-align: justify;
+    text-justify: inter-word;
+	font-family: cardo;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 20px;
+}
+
+.judulKonten1{
+	font-family: philo;
+	text-align: center;
+}
+
+.konten1{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.kataKonten1{
+    text-align: justify;
+    text-justify: inter-word;
+	font-family: cardo;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 20px;
+}
+
+.judulKonten2{
+	font-family: philo;
+	text-align: center;
+}
+
+.konten2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.kataKonten2{
+    text-align: justify;
+    text-justify: inter-word;
+	font-family: cardo;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 20px;
+}
+
+.judulKonten3{
+	font-family: philo;
+	text-align: center;
+}
+
+.konten3{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.kataKonten3{
+    text-align: justify;
+    text-justify: inter-word;
+	font-family: cardo;
+	margin-left: 200px;
+	margin-right: 200px;
+	font-size: 20px;
+}
